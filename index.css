@@ -1,0 +1,44 @@
+#img {
+    max-width: 80%;
+    min-width: 20%;
+    border: 2px;
+      border-top-color: currentcolor;
+      border-right-color: currentcolor;
+      border-bottom-color: currentcolor;
+      border-left-color: currentcolor;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    opacity: 0.6;
+  }
+  
+  body {
+    padding: 50px;
+    background-color: rgb(3, 87, 161);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  #content {
+    padding-left: 20%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    opacity: 0.8;
+  }
+  #senha, #email {
+    display: inline;
+    text-align: center;
+    margin: 5px;
+    font-size: large;
+  }
+  
+  button {
+    font-size: 24px;
+    margin: 5px;
+      margin-right: 5px;
+    margin-right: 80px;
+  }
