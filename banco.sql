@@ -1,5 +1,7 @@
 create database login;
 
+-- drop database login;
+
 use login ;
 
 create table if not exists cliente(
@@ -7,6 +9,6 @@ create table if not exists cliente(
     email varchar(60) not null unique,
     senha varchar(30) not null,
     primary key (id)
-)
+);
 
-drop database login;
+select * from cliente ;
